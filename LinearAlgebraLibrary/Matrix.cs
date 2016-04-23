@@ -13,7 +13,7 @@ namespace LinearAlgebraLibrary
         public Matrix(int height=1, int width=1)
         {
 
-            if (height==0 || width==0)
+            if (height<1 || width<1)
                 throw new ArgumentOutOfRangeException("Matrix dimensions must be positive");
 
             Values = new double[height, width];

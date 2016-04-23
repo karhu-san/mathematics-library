@@ -27,7 +27,10 @@ namespace VectorAnalysis.Tests
     public class Interval
     {
         public List<Interval> x;
-        public int Dimension => x.Count;
+        public int Dimension
+        {
+            get { return x.Count; }
+        }
 
         public double Low, High;
 

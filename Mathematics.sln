@@ -11,12 +11,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VectorAnalysis", "VectorAna
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VectorAnalysis.Tests", "VectorAnalysis.Tests\VectorAnalysis.Tests.csproj", "{27E11449-DCFC-41E1-AF37-9BC2DF5C6DA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearAlgebra.Specs", "LinearAlgebra.Specs\LinearAlgebra.Specs.csproj", "{2BD74C3B-CD2D-48CE-87B6-A1655425D283}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{530BA3FE-705B-402B-8EE2-6236813ABFAE}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Numerics", "Numerics\Numerics.csproj", "{A59619C8-B87F-4934-9918-224994E2C61D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Numerics.Tests", "Numerics.Test\Numerics.Tests.csproj", "{1A6F6EE9-7AB2-4859-A0A6-0E4A75E6F9A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,10 +42,14 @@ Global
 		{27E11449-DCFC-41E1-AF37-9BC2DF5C6DA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27E11449-DCFC-41E1-AF37-9BC2DF5C6DA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27E11449-DCFC-41E1-AF37-9BC2DF5C6DA0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2BD74C3B-CD2D-48CE-87B6-A1655425D283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2BD74C3B-CD2D-48CE-87B6-A1655425D283}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2BD74C3B-CD2D-48CE-87B6-A1655425D283}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2BD74C3B-CD2D-48CE-87B6-A1655425D283}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A59619C8-B87F-4934-9918-224994E2C61D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A59619C8-B87F-4934-9918-224994E2C61D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A59619C8-B87F-4934-9918-224994E2C61D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A59619C8-B87F-4934-9918-224994E2C61D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A6F6EE9-7AB2-4859-A0A6-0E4A75E6F9A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A6F6EE9-7AB2-4859-A0A6-0E4A75E6F9A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A6F6EE9-7AB2-4859-A0A6-0E4A75E6F9A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A6F6EE9-7AB2-4859-A0A6-0E4A75E6F9A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
